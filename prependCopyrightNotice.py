@@ -1,4 +1,4 @@
-# This script prepends a copyright notice to all files in a directory.
+# This script prepends a copyright notice to all files of certain types in a directory.
 import os
 for filename in os.listdir("c:/test"):
 	print("looking at the file " + str(filename))
